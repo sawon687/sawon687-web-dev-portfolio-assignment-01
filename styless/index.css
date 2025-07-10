@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.primary-color{
+ color:#4E47FF;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ffffff;
+}
+.logo{
+   font-size: 2rem;
+
+}
+nav{
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    
+    margin-top: 30px;
+    justify-content: space-between;
+   margin-inline: 200px;
+ 
+}
+nav ul li   {
+  list-style: none;
+  margin-right: 40px;
+  
+}
+
+.btn{
+    background-color: #4E47FF;
+    padding: 12px 40px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    
+}
+
