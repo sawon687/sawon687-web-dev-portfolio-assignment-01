@@ -30,7 +30,15 @@ header{
 
 .logo{
    font-size: 2rem;
+    cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 
+}
+.logo:hover{
+ transform: scale(1.9);
+  color: #6661f4;
+  opacity: 0.7;
+    
 }
 nav{
    
@@ -58,6 +66,15 @@ nav ul li  a{
     color: #fff;
     border-radius: 10px;
     font-size: 1.3rem;
+    cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+     
+}
+/* btn hover a */
+.btn:hover{
+    transform: scale(1.1);
+  background-color: #6661f4;
+  opacity: 0.7;
     
 }
 /* hero or banner section text area */
@@ -322,6 +339,11 @@ input::placeholder{
     margin-right: 20px;
     text-decoration: none;
 }
+.footer li a:hover{
+    text-decoration: underline 4px;
+    color: #4E47FF;
+
+}
 .footer-contanier{
     width: auto;
     height: 550px;
@@ -334,5 +356,13 @@ input::placeholder{
     height: 151px;
    margin: 20px auto;
    color:#4E47FF ;
+   cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.footer-title:hover{
+     transform: scale(1.9);
+  color: #6661f4;
+  opacity: 0.7;
+    
 }
 /* footer end */
