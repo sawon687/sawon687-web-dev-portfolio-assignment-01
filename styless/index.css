@@ -172,7 +172,7 @@ nav ul li   {
 }
 /*   Productive Users section end  */
 
-/* user review and card section style */
+/* user review and card section style start */
 
 .card{
        width: 367px;
@@ -210,3 +210,4 @@ nav ul li   {
 .margin-top{
     margin-top: 0px;
 }
+/* user review and card section style end */
