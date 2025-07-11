@@ -14,8 +14,7 @@ body{
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 /* headaer start */
 header{
@@ -23,10 +22,7 @@ header{
     height: 698px;
     background-image: url('/images/Hero-bg.png');
     background-size: cover;
-    background-position: center;
-     
-  
-      
+    background-position: center;   
 }
 .primary-color{
  color:#4E47FF;
@@ -53,7 +49,6 @@ nav ul li  {
 }
 nav ul li  a{
     text-decoration: none;
- 
 }
 
 .btn{
@@ -90,8 +85,6 @@ nav ul li  a{
 
 .contanier{
     width: 1140px;
-    border: solid;
-  
 }
 .flex-spacebetween{
     display: flex;
@@ -107,20 +100,16 @@ nav ul li  a{
     width: 517px;
     height: 203px;
     margin: auto 0px;
-    
-    
 }
 .action-textarea h3 {
    width: 400px;
    height: 50px;
    font-size: 3rem;
-  
    margin-bottom: 40px;
 }
 .action-textarea p{
     width: 400px;
    height: 50px;
-
    margin-bottom: 20px;
 }
 .action-bacgroundimg{
@@ -188,7 +177,7 @@ nav ul li  a{
        border-radius: 10px;
        padding:20px 0px 0px 10px ;
        background-color: #ffff;
-       
+    
 }
 .review-box{
   
@@ -211,7 +200,6 @@ nav ul li  a{
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
-
 }
 
 .margin-top{
@@ -246,8 +234,6 @@ nav ul li  a{
 .lefright-contanier{
     width: 1140px;
     height: 632px;
-    
-
 }
 .left-sidetext{
     width: 528px;
@@ -302,7 +288,51 @@ input[type='button']
     color: white;
     font-size: 1.1rem;
 }
-input::placeholder{
-    font-size: 1.1rem;
+label{
+    font-size: 1.2rem;
     font-weight: 400;
 }
+input::placeholder{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* rigtside from section and leftsidetext contain end */
+/* footer section start */
+.footer{
+
+    width: 531px;
+    height: 320px;
+  
+    text-align: center;
+    margin-top: 150px;
+
+}
+.footer ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer-contanier{
+    width: auto;
+    height: 550px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.footer-title{
+    font-size: 7rem;
+    width: 330px;
+    height: 151px;
+   margin: 20px auto;
+   color:#4E47FF ;
+}
+/* footer end */
