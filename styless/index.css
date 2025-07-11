@@ -8,7 +8,7 @@ body{
     font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #ffffff;
+  background-color:#F5F8FF;
 }
 *{
     margin: 0px;
@@ -90,7 +90,7 @@ nav ul li   {
       justify-content: space-between;
      
 }
-.action{
+.flex{
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -130,4 +130,43 @@ nav ul li   {
 .dark-2{
     color: #252432;
    
+}
+/*   Productive Users section start  */
+.productive-contanier{
+ 
+    width: 1140px;
+    height: 360px;
+
+    background-color: #E5E7FF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 2rem;
+}
+.user-active{
+    width: 856px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+.box-user{
+
+    width: 180px;
+    height: 150px;    
+}
+.box-user p{
+    text-align: center;
+       color: #252432;
+       margin-top: -18px;
+}
+.user-h1{
+    font-size: 5rem;
+    color: #4E47FF;
 }
