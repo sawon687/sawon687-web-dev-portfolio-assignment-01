@@ -9,6 +9,7 @@ body{
   font-weight: 400;
   font-style: normal;
   background-color:#F5F8FF;
+  height: auto;
 }
 *{
     margin: 0px;
@@ -24,6 +25,7 @@ header{
     background-size: cover;
     background-position: center;
      
+  
       
 }
 .primary-color{
@@ -35,19 +37,23 @@ header{
 
 }
 nav{
-    width: 1140px;
-    height: 151px;
-    display: flex;
-    
+   
     margin-top: 30px;
-    justify-content: space-between;
    margin-inline: 200px;
  
 }
-nav ul li   {
+nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+nav ul li  {
   list-style: none;
   margin-right: 40px;
   
+}
+nav ul li  a{
+    text-decoration: none;
+ 
 }
 
 .btn{
@@ -84,6 +90,7 @@ nav ul li   {
 
 .contanier{
     width: 1140px;
+    border: solid;
   
 }
 .flex-spacebetween{
@@ -211,3 +218,91 @@ nav ul li   {
     margin-top: 0px;
 }
 /* user review and card section style end */
+/* Ready to focus better start  */
+.focus-contanier{
+    width: 1140px;
+    background-color: white;
+    height: 697px;
+}
+.focus-section{
+    text-align: center;
+    margin-top: 100px;
+     line-height: 60px;
+     
+
+}
+.focus-section h1{
+    font-size: 3.2rem;
+}
+.back-imgcontanier{
+    background-image: url('/images/wc-big.png');
+    width: 840px;
+    height: 365px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+/* Ready to focus better start  end*/
+/* rigtside from section and leftsidetext contain start */
+.lefright-contanier{
+    width: 1140px;
+    height: 632px;
+    
+
+}
+.left-sidetext{
+    width: 528px;
+    height: 228px;
+   
+    display: flex;
+    margin:auto 0px;
+}
+.left-sidetext h1{
+    text-align: justify;
+    font-size: 5rem;
+}
+.right-sidefrom{
+
+        margin: auto auto;
+}
+.input{
+    width: 497px;
+    height: 102px;
+}
+.input input{
+    width: 497px;
+    height: 70px;
+    background-color: #fff;
+    border: 0.225px solid #D6DDED;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 25px;
+}
+.message-fled{
+    width: 497px;
+    height: 167px;
+    
+}
+.message-fled textarea{
+    width: 497px;
+    height: 135px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0.225px solid #D6DDED;
+    padding: 25px;
+    outline: none;
+}
+textarea::placeholder{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+input[type='button']
+{
+    height: 62px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 1.1rem;
+}
+input::placeholder{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
